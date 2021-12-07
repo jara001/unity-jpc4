@@ -1,0 +1,19 @@
+Junior Programmer Pathway
+Checkpoint 4
+
+Programming theory in action
+
+
+The goal is to create a small street situation, three lanes with randomly spawning cars. The cars move in one direction and may decide to stop in the middle.
+
+1) Inheritance Pillar
+Vehicle is a generic object. Other objects (Car, Bus, Sports Car, Broken Car, etc.) will derive from it.
+
+2) Polymorphism Pillar
+Vehicle has function Drive(). All objects can drive only one way (speed), Broken Car can be only pushed (force).
+
+3) Encapsulation Pillar
+Speed cannot be negative.
+
+4) Abstraction Pillar
+TurnOn(), TurnOff(), Drive(), Brake().
